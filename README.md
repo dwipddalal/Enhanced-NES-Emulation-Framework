@@ -12,3 +12,13 @@ The NES game used on this Emulator is Super Mario taken from [this](https://www.
 <img width="748" alt="image" src="https://github.com/dwipddalal/Enhanced-NES-Emulation-Framework/assets/91228207/29fc1cef-4ea3-409c-baa5-e18b418bb229">
 
 
+
+
+
+**INSTRUCTION_SET Dictionary**:
+   - This is a comprehensive dictionary mapping instruction mnemonics (like "ADC", "AND", "ASL", etc.) to their corresponding `InstructionSet`. Each `InstructionSet` contains:
+     - The name of the instruction.
+     - A dictionary of `AddressModes` to `Instruction` objects, detailing how the instruction behaves with different addressing modes, including the opcode (bytecode), the size of the instruction in bytes, and the number of CPU cycles it takes to execute.
+
+
+
