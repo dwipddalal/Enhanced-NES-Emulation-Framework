@@ -38,10 +38,11 @@ The NES game used on this Emulator is Super Mario taken from [this](https://www.
 
 
 ## References
-   - https://github.com/jameskmurphy/nes/tree/main
+   - https://github.com/docmarionum1/py65emu
    - https://www.masswerk.at/6502/6502_instruction_set.html
    - http://www.obelisk.me.uk/6502/addressing.html
    - https://www.csh.rit.edu/~moffitt/docs/6502.html
+   - https://github.com/jameskmurphy/nes/tree/main
    - http://www.6502.org/tutorials/vflag.html
    - http://www.6502.org/tutorials/decimal_mode.html
    - http://6502.org/tutorials/6502opcodes.html#PC
