@@ -37,4 +37,17 @@ The NES game used on this Emulator is Super Mario taken from [this](https://www.
      - A dictionary of `AddressModes` to `Instruction` objects, detailing how the instruction behaves with different addressing modes, including the opcode (bytecode), the size of the instruction in bytes, and the number of CPU cycles it takes to execute.
 
 
+## References
+   - https://github.com/jameskmurphy/nes/tree/main
+   - https://www.masswerk.at/6502/6502_instruction_set.html
+   - http://www.obelisk.me.uk/6502/addressing.html
+   - https://www.csh.rit.edu/~moffitt/docs/6502.html
+   - http://www.6502.org/tutorials/vflag.html
+   - http://www.6502.org/tutorials/decimal_mode.html
+   - http://6502.org/tutorials/6502opcodes.html#PC
+   - https://www.masswerk.at/6502/assembler.html
+   - https://www.pagetable.com/?p=410
+   - http://www.righto.com/2012/12/the-6502-overflow-flag-explained.html
+
+
 
