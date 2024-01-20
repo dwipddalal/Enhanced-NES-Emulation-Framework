@@ -12,7 +12,12 @@ The NES game used on this Emulator is Super Mario taken from [this](https://www.
 <img width="748" alt="image" src="https://github.com/dwipddalal/Enhanced-NES-Emulation-Framework/assets/91228207/29fc1cef-4ea3-409c-baa5-e18b418bb229">
 
 
+### Emulation Process
 
+- Upon initializing, the emulator loads a ROM file, which is the game to be played. It sets up the emulated environment, including CPU, PPU, and memory.
+- It enters a main loop, akin to the NES's own operational cycle. In this loop, it executes CPU instructions, updates the PPU for graphics, and handles input from the controllers.
+- The emulator manages interrupts, crucial for timing and synchronization in games, through the `Interrupter` class.
+- It simulates the original NES display on a modern screen, including options for scaling the display to suit different resolutions.
 
 
 **INSTRUCTION_SET Dictionary**:
