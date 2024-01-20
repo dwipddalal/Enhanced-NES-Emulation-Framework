@@ -19,6 +19,10 @@ The NES game used on this Emulator is Super Mario taken from [this](https://www.
 - The emulator manages interrupts, crucial for timing and synchronization in games, through the `Interrupter` class.
 - It simulates the original NES display on a modern screen, including options for scaling the display to suit different resolutions.
 
+### Save States and User Interaction
+
+- Unique to emulators is the ability to save and load the exact state of the game at any point, a feature not available on the original NES hardware. This is handled through Python's `pickle` module.
+- The emulator also incorporates additional user interaction features like a heads-up display (HUD) toggle and real-time performance metrics (like FPS).
 
 **INSTRUCTION_SET Dictionary**:
    - This is a comprehensive dictionary mapping instruction mnemonics (like "ADC", "AND", "ASL", etc.) to their corresponding `InstructionSet`. Each `InstructionSet` contains:
