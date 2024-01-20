@@ -15,7 +15,8 @@ Level of Abstraction in CPU 6502
 The NES game used on this Emulator is Super Mario taken from [this](https://www.nesfiles.com/NES/Super_Mario_Bros/) website
 
 ## What it looks like!
-<img width="748" alt="image" src="https://github.com/dwipddalal/Enhanced-NES-Emulation-Framework/assets/91228207/29fc1cef-4ea3-409c-baa5-e18b418bb229">
+<img width="743" alt="image" src="https://github.com/dwipddalal/Enhanced-NES-Emulation-Framework/assets/91228207/24abdd17-3a4b-465a-a1b3-2a01a76cc92a">
+
 
 
 ### Emulation Process
